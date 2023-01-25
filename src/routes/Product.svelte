@@ -11,14 +11,17 @@
 	.product {
 		background-color: var(--blue-100);
 		display: grid;
-		grid-auto-flow: column;
-		// grid-template-columns: 1rem, 1fr, min-content;
+		grid-template-columns: max-content 1fr min-content;
+		gap: 1rem;
 		padding: 1rem;
 		align-items: center;
 		border-radius: 1rem;
 		margin-bottom: 20px;
 		font-size: 0.9rem;
-
+		@media screen and (min-width: 900px) {
+			padding: 25px;
+			margin-bottom: 25px;
+		}
 		&-details {
 			line-height: 1.25rem;
 			text-align: left;
@@ -34,5 +37,10 @@
 	a {
 		font-weight: var(--fw-x-bold);
 		text-align: right;
+		&:hover {
+			cursor: pointer;
+			opacity: 0.7;
+			text-decoration: none;
+		}
 	}
 </style>

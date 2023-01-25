@@ -26,10 +26,11 @@
 		width: 325px;
 		border-radius: 20px;
 		overflow: hidden;
+		box-shadow: 0 15px 35px -20px hsla(243, 60%, 52%, 0.7);
 	}
 	.order-summary {
 		background-color: white;
-		padding-block: 40px;
+		padding-block: 35px;
 		padding-inline: 25px;
 		text-align: center;
 	}
@@ -55,14 +56,30 @@
 		color: var(--blue-100);
 		font-weight: var(--fw-bold);
 		letter-spacing: 0.5px;
+		box-shadow: 0 12px 23px -6px hsla(245, 60%, 52%, 0.7);
+	}
+	button:hover {
+		cursor: pointer;
+		opacity: 0.7;
+		text-decoration: none;
 	}
 	.cancel {
 		color: var(--blue-600);
 		font-weight: var(--fw-x-bold);
 	}
+	.cancel:hover {
+		cursor: pointer;
+		color: var(--blue-800);
+	}
 	@media (min-width: 900px) {
 		.product-card {
-			width: 400px;
+			width: 450px;
+		}
+		.order-summary {
+			padding: 50px;
+		}
+		.order-summary *:not(:last-child) {
+			margin-bottom: 25px;
 		}
 	}
 </style>
