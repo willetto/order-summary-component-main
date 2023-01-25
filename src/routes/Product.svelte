@@ -1,5 +1,9 @@
+<script>
+	import music_icon from '$lib/assets/icon-music.svg';
+</script>
+
 <div class="product">
-	<img src="src/assets/icon-music.svg" alt="music icon" class="music-icon" />
+	<img src={music_icon} alt="music icon" class="music-icon" />
 	<div class="product-details">
 		<p class="product-name">Annual Plan</p>
 		<p class="product-price">$59.99/year</p>

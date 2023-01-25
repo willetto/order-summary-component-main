@@ -45,7 +45,7 @@
 	}
 	@media (min-width: 900px) {
 		:global(body) {
-			background-image: url(../assets/pattern-background-desktop.svg);
+			background-image: url(../lib/assets/pattern-background-mobile.svg);
 		}
 		main {
 			margin-top: 90px;

@@ -1,13 +1,11 @@
 <script>
 	import Product from './Product.svelte';
+	import hero from '$lib/assets/illustration-hero.svg';
 </script>
 
 <div class="product-card">
 	<div class="hero-img">
-		<img
-			src="src/assets/illustration-hero.svg"
-			alt="Smiling, dancing girl listing to music in headphones"
-		/>
+		<img src={hero} alt="Smiling, dancing girl listing to music in headphones" />
 	</div>
 	<div class="order-summary">
 		<h1>Order Summary</h1>
