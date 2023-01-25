@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-yk64SLhm9f)
 - Live Site URL: [Netlify](https://willetto-order-summary.netlify.app/)
 
 ### Built with
